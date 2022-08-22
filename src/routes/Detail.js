@@ -1,4 +1,3 @@
-import { getMouseEventOptions } from "@testing-library/user-event/dist/utils";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
@@ -16,9 +15,10 @@ function Detail() {
         setSummary(json.data.movie.description_intro);
         setStart(json.data.movie.year);
     }
+
     useEffect(() => {
         getMovie();
-    }, []);
+    }, );
 
     return <div>
         <h1>{title}</h1>

@@ -39,7 +39,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://kang-mincheol.github.io/react-movie-app",
+  "io_homepage": "https://kang-mincheol.github.io/react-movie-app",
+  "homepage": "./",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
